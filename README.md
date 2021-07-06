@@ -17,6 +17,10 @@ This script allows the user to view any of the following in their command line:
 
 `export PATH="/home/bryan/scripts/confessions:$PATH"`
 
+3. Update the shell environment with the command below while still in the home directory.
+
+`source .bashrc`
+
 ## Flags
 
 **-a**
