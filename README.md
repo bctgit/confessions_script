@@ -42,8 +42,8 @@ This script allows the user to view any of the following in their command line:
 
 **Output:**
 
-`Q. 1. What is the chief end of man?
-A. Man's chief end is to glorify God, and to enjoy him forever.`
+Q. 1. What is the chief end of man?
+A. Man's chief end is to glorify God, and to enjoy him forever.
 
 **Input:**
 
@@ -51,8 +51,8 @@ A. Man's chief end is to glorify God, and to enjoy him forever.`
 
 **Output:**
 
-`Q. 162. What is a sacrament?
-A. A sacrament is an holy ordinance instituted by Christ in his church, to signify, seal, and exhibit unto those that are within the covenant of grace, the benefits of his mediation; to strengthen and increase their faith, and all other graces; to oblige them to obedience; to testify and cherish their love and communion one with another; and to distinguish them from those that are without.`
+Q. 162. What is a sacrament?
+A. A sacrament is an holy ordinance...
 
 **Input:**
 
@@ -60,5 +60,5 @@ A. A sacrament is an holy ordinance instituted by Christ in his church, to signi
 
 **Output:**
 
-`I believe in God the Father Almighty,
-  Maker of heaven and earth...`
+I believe in God the Father Almighty,
+  Maker of heaven and earth...
