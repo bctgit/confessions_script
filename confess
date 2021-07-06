@@ -4,15 +4,15 @@ BASEDIR=$(dirname $0)
 
 while getopts ":s:l:ant" opt; do
 	case "$opt" in
-		s) [[ ${OPTARG} == ?(-)+([0-9]) ]] &&  grep ${OPTARG} -m1 -A 1 ${BASEDIR}/shorter.txt
+		s) [[ ${OPTARG} == ?(-)+([0-9]) ]] &&  grep ${OPTARG} -m1 -A 1 ${BASEDIR}/docs/shorter.txt
 			;;
-		l) [[ ${OPTARG} == ?(-)+([0-9]) ]] && grep ${OPTARG} -m1 -A 1 ${BASEDIR}/larger.txt
+		l) [[ ${OPTARG} == ?(-)+([0-9]) ]] && grep ${OPTARG} -m1 -A 1 ${BASEDIR}/docs/larger.txt
 			;;
-		a) cat ${BASEDIR}/apostle.txt
+		a) cat ${BASEDIR}/docs/apostle.txt
 			;;
-		n) cat ${BASEDIR}/nicene.txt
+		n) cat ${BASEDIR}/docs/nicene.txt
 			;;
-		t) cat ${BASEDIR}/athanasian.txt; echo "Hello"
+		t) cat ${BASEDIR}/docs/athanasian.txt; echo "Hello"
 			;;
 		*) echo "Please use one of the following options: -s, -l, -a, -n, -t."
 	esac
